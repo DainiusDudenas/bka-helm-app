@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  helm-app:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-04-29T18:24:54.15604119Z"
+    description: A Helm chart for Kubernetes (Dainiaus)
+    digest: d1f38fa7b60fb7dfaba0668d29ba4047d31cabe2fc3027ee02886e22b6ec4e04
+    name: helm-app
+    type: application
+    urls:
+    - https://dainiusdudenas.github.io/bka-helm-app/helm-app-0.1.2.tgz
+    version: 0.1.2
+generated: "2025-04-29T18:24:54.155615734Z"
