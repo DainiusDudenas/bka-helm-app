@@ -1,0 +1,11 @@
+info: https://www.youtube.com/watch?v=dvQErXPnjtI
+Uzduotis: https://github.com/RaimundasR/BKA-DEVOPS-TASKS/tree/main/cicd-flux-gitops
+Pvz.: https://github.com/RaimundasR/helm-todoapp
+
+
+kaip dariau:
+Pasikuriau sita repositorija per www
+pasikonavau
+data nuejau i ja:
+
+helm create bka-helm-app
