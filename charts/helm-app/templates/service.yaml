@@ -1,15 +1,13 @@
+{{- if .Values.service.enabled }}
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "helm-app.fullname" . }}
-  labels:
-    {{- include "helm-app.labels" . | nindent 4 }}
+  name: "{{ include "helm-app.fullname" . }}"
 spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: http
-      protocol: TCP
-      name: http
+      targetPort: 80
   selector:
-    {{- include "helm-app.selectorLabels" . | nindent 4 }}
+    app: "{{ include "helm-app.name" . }}"
+{{- end }}
