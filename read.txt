@@ -9,3 +9,12 @@ pasikonavau
 data nuejau i ja:
 
 helm create bka-helm-app
+
+
+
+
+reikejo repositorijoje leisti read and write persmissions
+paskiau padaryti settings->pages: deploy from a branch, pasirenku gh-pages
+
+pagooglinti kaip turint helm charta ji galima pahostinti i goharbora
+Arba labiau kaip helm package daryti, jis man padaro tgr, o tada uploadinu i goharbor ir naudojame oci
